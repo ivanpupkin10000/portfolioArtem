@@ -1,10 +1,12 @@
 body {
     font-family: sans-serif;
+    background-color: #5ccccc	;
   }
   
   header {
-    background-color: #5ccccc;
+    background-color: #5A9999;
     padding: 40px 0px 40px 25px;
+
   }
   
   .link-header {
@@ -30,25 +32,37 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .descriptioncenter {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 57px;
+    color: #fff;
+    line-height: 1.15;
+
+  }
   
   .container {
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
+    margin: 10 px;
+    padding: 10;
   }
   
   h1 {
     text-align: center;
-    color: #9FEE00;
+    color: #FFAA00;
     font-size: 96px;
     text-shadow: 0px 20px 10px rgba(29, 115, 115, 0.38);
   }
   
   nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
   
   .container-nav {
